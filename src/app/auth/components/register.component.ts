@@ -6,6 +6,7 @@ import {Observable} from 'rxjs';
 import {isSubmittingSelector} from '../store/selector';
 
 
+
 @Component({
   selector: 'app-mc-register',
   templateUrl: './register.component.html',
@@ -23,6 +24,7 @@ export class RegisterComponent implements OnInit {
   ngOnInit(): void {
     this.initializeForm();
     this.initializeValues();
+
   }
 
   initializeForm(): void {
